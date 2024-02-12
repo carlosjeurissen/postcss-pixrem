@@ -285,6 +285,13 @@ describe('pixrem', function () {
     assert.strictEqual(processed2, processed3);
   });
 
+  it('should not convert rem or duplicate rule for \'rem\' string in base64 data', function () {
+    var css = '.rule{background-image: url(data:image/png;base64,Waj8JihBKremJFeiD0T4wd3rem/vS+lPDE1O3z9eREMu2T);}';
+    var expected = '.rule{background-image: url(data:image/png;base64,Waj8JihBKremJFeiD0T4wd3rem/vS+lPDE1O3z9eREMu2T);}';
+    var processed = postcss([pixrem]).process(css).css;
+    assert.equal(processed, expected);
+  });
+
   it('should add fallback when only IE6 is in scope', function () {
     var css = '.rule{width: 2rem}';
     var expected = '.rule{width: 32px;width: 2rem}';

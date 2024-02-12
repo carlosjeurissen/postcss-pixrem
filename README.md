@@ -4,6 +4,13 @@
 
 [PostCSS](https://github.com/ai/postcss) plugin that generates pixel fallbacks for rem units.
 
+## Notes
+
+This is a fork of the original https://github.com/robwierzbowski/node-pixrem by robwierzbowski
+robwierzbowski. With additional work done by onigoetz and philiprenich.
+
+`npm install --save postcss pixrem`
+
 ## Installation
 
 `npm install --save postcss pixrem`

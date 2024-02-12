@@ -1,14 +1,14 @@
 {
-  "name": "pixrem",
+  "name": "postcss-pixrem",
   "description": "A CSS post-processor that generates pixel fallbacks for rem units.",
   "version": "6.0.0",
-  "homepage": "https://github.com/robwierzbowski/node-pixrem",
+  "homepage": "https://github.com/carlosjeurissen/postcss-pixrem",
   "author": "Rob Wierzbowski <hello@robwierzbowski.com> (http://robwierzbowski.com)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/robwierzbowski/node-pixrem.git"
+    "url": "git://github.com/carlosjeurissen/postcss-pixrem.git"
   },
-  "bugs": "https://github.com/robwierzbowski/node-pixrem/issues",
+  "bugs": "https://github.com/carlosjeurissen/postcss-pixrem/issues",
   "licenses": [
     {
       "type": "BSD-3-Clause"

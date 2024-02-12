@@ -22,12 +22,12 @@
     "test": "mocha"
   },
   "dependencies": {
-    "browserslist": "^4.16.6",
+    "browserslist": "^4.22.3",
     "reduce-css-calc": "^2.1.8"
   },
   "devDependencies": {
-    "mocha": "^8.4.0",
-    "postcss": "^8.2.15"
+    "mocha": "^10.3.0",
+    "postcss": "^8.4.35"
   },
   "peerDependencies": {
     "postcss": "^8.0.0"

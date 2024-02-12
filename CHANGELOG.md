@@ -1,5 +1,15 @@
 ## Release History
 
+6.0.0, Feb 12, 2024
+
+* Add support for postcss 8+ thanks to onigoetz
+* Prevent processing in base64 strings thanks to philiprenich
+* Update dependencies
+
+5.0.0, Dec 30, 2018
+
+* Update dependencies, drop support for Node.js 4
+
 4.0.1, July 06, 2017
 
 * Fix CI build, testing only Node.js 4, 6 and stable

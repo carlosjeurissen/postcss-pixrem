@@ -1,5 +1,9 @@
 ## Release History
 
+6.0.1, Jun 11, 2024
+
+* Update dependencies
+
 6.0.0, Feb 12, 2024
 
 * Add support for postcss 8+ thanks to onigoetz

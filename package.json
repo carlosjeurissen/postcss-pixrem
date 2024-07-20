@@ -1,7 +1,7 @@
 {
   "name": "postcss-pixrem",
   "description": "A CSS post-processor that generates pixel fallbacks for rem units.",
-  "version": "6.0.1",
+  "version": "6.0.2",
   "homepage": "https://github.com/carlosjeurissen/postcss-pixrem",
   "author": "Rob Wierzbowski <hello@robwierzbowski.com> (http://robwierzbowski.com)",
   "repository": {
@@ -22,12 +22,12 @@
     "test": "mocha"
   },
   "dependencies": {
-    "browserslist": "^4.23.1",
+    "browserslist": "^4.23.2",
     "reduce-css-calc": "^2.1.8"
   },
   "devDependencies": {
-    "mocha": "^10.4.0",
-    "postcss": "^8.4.38"
+    "mocha": "^10.6.0",
+    "postcss": "^8.4.39"
   },
   "peerDependencies": {
     "postcss": ">=8.0.0"

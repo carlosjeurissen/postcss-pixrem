@@ -27,7 +27,7 @@ var fs      = require('fs');
 var pixrem  = require('pixrem');
 var postcss = require('postcss');
 
-var css = fs.readFileSync('main.css', 'utf8');
+var css = fs.readFileSync('main.css', 'utf-8');
 var processedCss = postcss([pixrem]).process(css).css;
 
 fs.writeFile('main.with-fallbacks.css', processedCss, function (err) {
